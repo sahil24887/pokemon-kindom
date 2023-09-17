@@ -1,0 +1,154 @@
+.individual-pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0.2rem;
+  margin: 0.3rem;
+  border: 1px solid #efefef;
+  border-radius: 2%;
+  min-width: 160px;
+  width: 200px;
+  margin: 0.5rem;
+  background-color: aquamarine;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+  transition: transform 0.3s ease-in-out;
+}
+
+.individual-pokemon img {
+  width: 120px;
+  height: 120px;
+}
+
+.individual-pokemon .number {
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  padding: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.pokemon-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.pokemon-details-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+.individual-pokemon:hover {
+  transform: scale(1.2);
+}
+
+.pokemon-name {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+small {
+  text-transform: capitalize;
+}
+
+.know-more {
+  margin: 0 25px;
+}
+
+.fire {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.fire button {
+  background-image: linear-gradient(120deg, #f6d365 0%, #f98f33 100%);
+}
+.fire button:hover {
+  background-image: linear-gradient(120deg, #f98f33 0%, #f6d365 100%);
+}
+
+.water {
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+.water button {
+  background-image: linear-gradient(120deg, #89f7fe 0%, #4d89cc 100%);
+}
+.water button:hover {
+  background-image: linear-gradient(120deg, #4d89cc 0%, #89f7fe 100%);
+}
+
+.grass {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.grass button {
+  background-image: linear-gradient(120deg, #adee16 0%, #1aca32 100%);
+}
+.grass button:hover {
+  background-image: linear-gradient(120deg, #1aca32 0%, #adee16 100%);
+}
+
+.bug {
+  background-image: linear-gradient(-225deg, #e6b980 0%, #eacda3 100%);
+}
+.bug button {
+  background-image: linear-gradient(-225deg, #e6b980 0%, #947046 100%);
+}
+.bug button:hover {
+  background-image: linear-gradient(-225deg, #947046 0%, #e6b980 100%);
+}
+
+.rock {
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+.rock button {
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+.rock button:hover {
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+
+.ghost {
+  background-image: linear-gradient(to top, #b7b7b8 0%, #e2ebf0 100%);
+}
+.ghost button {
+  background-image: linear-gradient(to top, #b7b7b8 0%, #5e5e60 100%);
+}
+.ghost button:hover {
+  background-image: linear-gradient(to top, #5e5e60 0%, #b7b7b8 100%);
+}
+
+.electric {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.electric button {
+  background-image: linear-gradient(to right, #f83600 0%, #b92600 100%);
+}
+.electric button:hover {
+  background-image: linear-gradient(to right, #b92600 0%, #f83600 100%);
+}
+
+.poison {
+  background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+}
+.poison button {
+  background-image: linear-gradient(to top, #df89b5 0%, #6f456a 100%);
+}
+.poison button:hover {
+  background-image: linear-gradient(to top, #6f456a 0%, #df89b5 100%);
+}
+
+.normal {
+  background-image: linear-gradient(120deg, #e3fdf5 0%, #ffe6fa 100%);
+}
+.normal button {
+  background-image: linear-gradient(120deg, #e98bd6 0%, #e9d7e6 100%);
+}
+.normal button:hover {
+  background-image: linear-gradient(120deg, #e9d7e6 0%, #e98bd6 100%);
+}
